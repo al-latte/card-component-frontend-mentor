@@ -1,0 +1,54 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	/* Colors */
+	--white: hsl(0, 0%, 100%);
+	--light-gray: hsl(220, 15%, 55%);
+	--grayish-blue: hsl(212, 45%, 89%);
+	--dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+	font-family: "Outfit", sans-serif;
+	background-color: var(--grayish-blue, gray);
+}
+/* Styling the main card component */
+.qr-code-card {
+	background-color: var(--white, white);
+	width: 80vw;
+	margin: 5em auto;
+	padding: 1em;
+	border-radius: 30px;
+	text-align: center;
+}
+/* Styling the imgae */
+#qrcode {
+	width: 100%;
+	border-radius: 15px;
+	margin-bottom: 1.5em;
+}
+/* Styling the card title */
+.card-title {
+	color: var(--dark-blue, darkblue);
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 1em;
+}
+/* Styling the card text (paragraph) */
+.card-text {
+	color: var(--light-gray, gray);
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 1.5em;
+}
+/* Media query for desktop version (1440px) */
+@media only screen and (min-width: 375px) {
+	.qr-code-card {
+		width: 300px;
+	}
+}
