@@ -17,12 +17,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-https://github.com/al-latte/QR-Code-Frontend-Mentor/blob/master/images/qr-code-component-final.JPG
+https://github.com/al-latte/qrcode-card-component-frontend-mentor/blob/main/qr-code-component-final.JPG
 
 ### Links
 
-- Solution URL: https://github.com/al-latte/QR-Code-Frontend-Mentor
-- Live Site URL: https://al-latte.github.io/QR-Code-Frontend-Mentor/
+- Solution URL: https://github.com/al-latte/qrcode-card-component-frontend-mentor
+- Live Site URL: https://al-latte.github.io/qrcode-card-component-frontend-mentor/
 
 ## My process
 
